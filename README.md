@@ -22,11 +22,11 @@ In the first part of the program, the task was to create a new file and write us
 
 In the second part, the program read the file content and displayed it on the screen. The file was opened in "r" mode, and a loop with fgets was used to read and print each line until the end of the file was reached. Again, error checking ensured that the program would not crash if the file could not be opened.
 
-##OUTPUT
-
-<img width="1095" height="611" alt="Image" src="https://github.com/user-attachments/assets/44af7432-67e3-48ef-85c9-68282e365471" />
-
 The third part of the program added the append functionality. The file was opened in "a" mode, which keeps the existing content intact and allows new data to be added at the end. The program asked the user for another line of input, which was then added to the file using fprintf. Finally, the file was closed properly to ensure the changes were saved.
 
 To verify the changes, the last part of the program reopened the file in "r" mode and printed its final contents, showing both the original data and the newly appended data together.
+
+##OUTPUT
+
+<img width="1095" height="611" alt="Image" src="https://github.com/user-attachments/assets/44af7432-67e3-48ef-85c9-68282e365471" />
 
